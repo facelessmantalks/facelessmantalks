@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://www.facelessmantalks.com/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.facelessmantalks.com/assets/img/og-image.jpg</image:loc>
+    </image:image>
+    <!-- VIDEOS-SITEMAP:START -->
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/eUJ2X8L1vcg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Why $100K Earners Still Live Paycheck to Paycheck</video:title>
+      <video:description>Most people think living paycheck to paycheck is an income problem, so they chase a bigger salary. But nearly half of Americans earning over $100K still live that way, because the number that matters was never your salary.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/eUJ2X8L1vcg</video:player_loc>
+      <video:duration>287</video:duration>
+      <video:publication_date>2026-11-07T10:23:43-08:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <!-- VIDEOS-SITEMAP:END -->
+  </url>
+</urlset>

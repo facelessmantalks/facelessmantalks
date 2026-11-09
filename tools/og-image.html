@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- Source for assets/img/og-image.jpg (the 1200x630 picture shown when the site is shared).
+     Regenerate: run `python tools/serve.py`, then
+     chrome --headless=new --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,630
+            --screenshot=og.png http://127.0.0.1:5173/tools/og-image.html
+     and save og.png as assets/img/og-image.jpg -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="../style.css?v=3">
+  <style>
+    html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; background: var(--ink-1); }
+    .og { position: relative; width: 1200px; height: 630px; overflow: hidden; isolation: isolate;
+      background:
+        radial-gradient(40% 55% at 74% 46%, rgba(91, 134, 255, .38), transparent 70%),
+        radial-gradient(70% 60% at 70% 50%, rgba(31, 71, 138, .55), transparent 75%),
+        var(--ink-1); }
+    .og__beam { position: absolute; top: -20%; left: 58%; width: 26%; height: 140%; background: linear-gradient(90deg, transparent, rgba(120, 156, 255, .16), transparent); transform: rotate(22deg); z-index: -1; }
+    .og__bust { position: absolute; right: -6px; bottom: -6px; height: 590px; width: auto; }
+    .og__copy { position: absolute; left: 64px; top: 60px; width: 640px; }
+    .og__issue { display: flex; gap: 12px; align-items: center; font: 500 13px/1 var(--f-mono); letter-spacing: .2em; text-transform: uppercase; color: var(--mist); margin: 0 0 26px; }
+    .og__issue i { width: 60px; height: 1px; background: var(--line-2); }
+    .og__mast { margin: 0; font: 720 122px/.8 var(--f-display); letter-spacing: -.035em; text-transform: uppercase;
+      background: linear-gradient(180deg, #fff 8%, #dfe5ee 52%, #a9b4c6 96%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .og__sub { margin: 16px 0 0 128px; font: italic 400 56px/1 var(--f-display); color: var(--accent); }
+    .og__tag { margin: 44px 0 0; font: 600 30px/1.25 var(--f-display); color: var(--marble); letter-spacing: -.01em; }
+    .og__tag em { color: var(--accent); }
+    .og__pill { display: inline-flex; align-items: center; gap: 12px; margin-top: 30px; padding: 12px 20px 12px 14px; border-radius: 999px; background: var(--royal); color: #fff; font: 650 20px/1 var(--f-body); }
+    .og__pill svg { width: 28px; height: 28px; }
+    .og__tick { position: absolute; left: 0; right: 0; bottom: 0; height: 44px; display: flex; align-items: center; gap: 34px; padding: 0 64px; background: var(--ink-2); border-top: 1px solid var(--line); font: 500 14px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--silver); white-space: nowrap; }
+    .og__tick b { color: #86a6ff; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <div class="og">
+    <div class="og__beam"></div>
+    <img class="og__bust" src="../assets/img/bust-960.webp" alt="">
+    <div class="og__copy">
+      <p class="og__issue">Vol. 01 <i></i> Money &amp; mind <i></i> Est. 2026</p>
+      <p class="og__mast">Faceless</p>
+      <p class="og__sub">Man Talks</p>
+      <p class="og__tag">Personal finance, money mindset<br>&amp; self-improvement, <em>learned out loud.</em></p>
+      <span class="og__pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.8 15.1V8.9L15.6 12l-5.8 3.1Z"/></svg>@FacelessManTalks</span>
+    </div>
+    <div class="og__tick"><span>Free cash flow <b>&#9650; 4.70%</b></span><span>Discipline <b>&#9650; 2.10%</b></span><span>Curiosity <b>&#9650; 5.20%</b></span><span>Savings rate <b>&#9650; 3.30%</b></span><span>What-ifs <b>&#9660; 4.00%</b></span></div>
+  </div>
+</body>
+</html>
