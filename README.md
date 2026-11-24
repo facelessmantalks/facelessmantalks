@@ -21,6 +21,7 @@ six screens tall.
 | `assets/fonts/` | Self-hosted fonts (Fraunces, Hanken Grotesk, IBM Plex Mono) |
 | `tools/serve.py` | Local preview server |
 | `tools/update-videos.mjs` | Refreshes the video section from YouTube |
+| `.github/workflows/update-videos.yml` | Runs that refresh automatically every 6 hours on GitHub |
 | `tools/og-image.html` | Source of the social share picture |
 
 ## Preview it on your computer
@@ -31,27 +32,38 @@ python tools/serve.py
 
 Then open http://127.0.0.1:5173. Videos only play when the page is served like this (or online), not when you double-click `index.html`.
 
-## When you publish new videos
+## Videos update themselves
+
+`tools/update-videos.mjs` reads your channel and rebuilds the video section:
+
+- **Big player:** your most watched long-form video, with its chapters.
+- **Small cards:** your newest video first (tagged "New" for 2 weeks), then your next most watched.
+- **"Latest" link at the top of the page:** always your newest video.
+- Shorts, live streams and scheduled premieres are skipped. View counts only show once a video passes 1,000 views.
+
+You can run it by hand any time (`--dry` shows what it would do without changing anything):
 
 ```bash
 node tools/update-videos.mjs
 ```
 
-It reads your public channel, ranks the videos by views, puts the most watched one in the big player (with its
-chapters), lists a few more as swipeable cards, points the "Latest" link at the top of the page to your newest video,
-and updates the video data Google reads. View counts only show on the page once a video passes 1,000 views.
-Add `--dry` to preview the result without changing anything.
+### It's automatic
 
-## Before going live (important)
+The file `.github/workflows/update-videos.yml` runs the updater every 6 hours on GitHub, for free, using
+YouTube's public feed (no API key). When something changed it commits the page, and GitHub Pages republishes
+https://facelessmantalks.com a minute later. To update right away after uploading a video:
+*Actions* tab > **Update videos from YouTube** > **Run workflow**.
 
-1. **Domain.** The site uses `https://www.facelessmantalks.com` as a placeholder. If your domain is different,
-   find and replace it in `index.html`, `sitemap.xml` and `robots.txt`.
-2. **Host it** on Netlify, Cloudflare Pages, Vercel or GitHub Pages: upload the folder as it is.
-   `desktop.ini` and `.claude/` don't need to go online. `404.html` expects the site at the root of the domain.
+## Notes
+
+1. **Domain.** The site is live at https://facelessmantalks.com (set by the `CNAME` file). If the domain ever
+   changes, find and replace it in `index.html`, `sitemap.xml`, `robots.txt` and `tools/update-videos.mjs`.
+2. **Hosting:** GitHub Pages publishes the `main` branch of the repository. `desktop.ini` and `.claude/` stay
+   on your computer (see `.gitignore`).
 3. **Google Search Console:** add the domain, then submit `sitemap.xml`.
 4. **Link everything together:** put the site URL in YouTube Studio (Customization > Basic info > Links) and in the
    Instagram bio. Links from your own channel help Google trust the site.
-5. When you change `style.css` or `script.js` later, bump the `?v=3` after their names in `index.html`
+5. When you change `style.css` or `script.js` later, bump the `?v=4` after their names in `index.html`
    (and `404.html`), so returning visitors get the new version.
 
 ## Editing the words

@@ -1,0 +1,43 @@
+# Keeps the video section of the site in sync with the YouTube channel.
+# Runs every 6 hours (and on demand from the Actions tab). When something changed, it commits
+# the page, and GitHub Pages republishes the site.
+# No key or secret needed: it reads YouTube's public feed of the channel.
+name: Update videos from YouTube
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-videos
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Read the channel and rebuild the video section
+        run: node tools/update-videos.mjs
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet -- index.html sitemap.xml tools/videos.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html sitemap.xml tools/videos.json
+          git commit -m "Update videos from YouTube"
+          git push
