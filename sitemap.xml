@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://facelessmantalks.com/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -12,12 +12,12 @@
     </image:image>
     <!-- VIDEOS-SITEMAP:START -->
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/eUJ2X8L1vcg/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>Why $100K Earners Still Live Paycheck to Paycheck</video:title>
-      <video:description>Most people think living paycheck to paycheck is an income problem, so they chase a bigger salary. But nearly half of Americans earning over $100K still live that way, because the number that matters was never your salary.</video:description>
-      <video:player_loc>https://www.youtube-nocookie.com/embed/eUJ2X8L1vcg</video:player_loc>
-      <video:duration>287</video:duration>
-      <video:publication_date>2026-11-07T18:23:43+00:00</video:publication_date>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/V3oBkgzghnw/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>If You're Building a Business in Your 20s, Watch This</video:title>
+      <video:description>Starting a business in your 20s can feel like a race you're already losing. But the fastest-growing new companies in America, the top one in a thousand, are started by founders who are 45 on average.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/V3oBkgzghnw</video:player_loc>
+      <video:duration>289</video:duration>
+      <video:publication_date>2026-11-12T19:58:22+00:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <video:video>
@@ -30,12 +30,12 @@
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/V3oBkgzghnw/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>If You're Building a Business in Your 20s, Watch This</video:title>
-      <video:description>Starting a business in your 20s can feel like a race you're already losing. But the fastest-growing new companies in America, the top one in a thousand, are started by founders who are 45 on average.</video:description>
-      <video:player_loc>https://www.youtube-nocookie.com/embed/V3oBkgzghnw</video:player_loc>
-      <video:duration>289</video:duration>
-      <video:publication_date>2026-11-12T19:58:22+00:00</video:publication_date>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/eUJ2X8L1vcg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Why $100K Earners Still Live Paycheck to Paycheck</video:title>
+      <video:description>Most people think living paycheck to paycheck is an income problem, so they chase a bigger salary. But nearly half of Americans earning over $100K still live that way, because the number that matters was never your salary.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/eUJ2X8L1vcg</video:player_loc>
+      <video:duration>287</video:duration>
+      <video:publication_date>2026-11-07T18:23:43+00:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <video:video>
