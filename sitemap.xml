@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://facelessmantalks.com/</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -25,6 +25,7 @@
       <video:title>The Smart Way to Buy a New Car Without Going Broke</video:title>
       <video:description>A longer car loan looks like the smart way to buy a new car: same car, smaller payments. But track every payment, and that &quot;breathing room&quot; costs about $3,500, before the expensive part even starts.</video:description>
       <video:player_loc>https://www.youtube-nocookie.com/embed/imYCFKuJqN0</video:player_loc>
+      <video:duration>311</video:duration>
       <video:publication_date>2026-11-25T02:32:54+00:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
