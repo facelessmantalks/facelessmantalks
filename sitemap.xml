@@ -12,21 +12,21 @@
     </image:image>
     <!-- VIDEOS-SITEMAP:START -->
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/V3oBkgzghnw/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>If You're Building a Business in Your 20s, Watch This</video:title>
-      <video:description>Starting a business in your 20s can feel like a race you're already losing. But the fastest-growing new companies in America, the top one in a thousand, are started by founders who are 45 on average.</video:description>
-      <video:player_loc>https://www.youtube-nocookie.com/embed/V3oBkgzghnw</video:player_loc>
-      <video:duration>289</video:duration>
-      <video:publication_date>2026-11-12T19:58:22+00:00</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/imYCFKuJqN0/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>The Smart Way to Buy a New Car Without Going Broke</video:title>
       <video:description>A longer car loan looks like the smart way to buy a new car: same car, smaller payments. But track every payment, and that &quot;breathing room&quot; costs about $3,500, before the expensive part even starts.</video:description>
       <video:player_loc>https://www.youtube-nocookie.com/embed/imYCFKuJqN0</video:player_loc>
       <video:duration>311</video:duration>
       <video:publication_date>2026-11-25T02:32:54+00:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/V3oBkgzghnw/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>If You're Building a Business in Your 20s, Watch This</video:title>
+      <video:description>Starting a business in your 20s can feel like a race you're already losing. But the fastest-growing new companies in America, the top one in a thousand, are started by founders who are 45 on average.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/V3oBkgzghnw</video:player_loc>
+      <video:duration>289</video:duration>
+      <video:publication_date>2026-11-12T19:58:22+00:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <video:video>
