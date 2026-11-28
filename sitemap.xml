@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://facelessmantalks.com/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -18,6 +18,14 @@
       <video:player_loc>https://www.youtube-nocookie.com/embed/imYCFKuJqN0</video:player_loc>
       <video:duration>311</video:duration>
       <video:publication_date>2026-11-25T02:32:54+00:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OGrNw1v8mMs/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Isn't Coming for Your Job  It's Coming for Your Salary</video:title>
+      <video:description>Pausing your 401(k) until the AI bubble pops feels like the safe move. In 2000, two of the smartest investors alive tried to time a bubble, and both of them lost billions.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/OGrNw1v8mMs</video:player_loc>
+      <video:publication_date>2026-11-27T19:55:55+00:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <video:video>
@@ -45,15 +53,6 @@
       <video:player_loc>https://www.youtube-nocookie.com/embed/5zqM2YoHJ7s</video:player_loc>
       <video:duration>311</video:duration>
       <video:publication_date>2026-11-21T18:33:48+00:00</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/thB17K7AbYs/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>Too Many Interests That’s Where the Money Is</video:title>
-      <video:description>If you have too many interests, everyone says pick one: one skill, 10,000 hours, no side projects. But the money shows up when two of your interests touch.</video:description>
-      <video:player_loc>https://www.youtube-nocookie.com/embed/thB17K7AbYs</video:player_loc>
-      <video:duration>306</video:duration>
-      <video:publication_date>2026-11-15T20:00:28+00:00</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
     <!-- VIDEOS-SITEMAP:END -->
